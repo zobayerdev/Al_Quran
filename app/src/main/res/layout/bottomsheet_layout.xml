@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialog_background"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/choosetxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/kalpurush"
+        android:text="ওযুর নিয়ম"
+        android:textAlignment="center"
+        android:textColor="@color/purple_200"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+
+    <ScrollView
+        android:scrollbars="none"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        app:cardBackgroundColor="@color/purple_700"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="3dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="10dp"
+                                android:fontFamily="@font/kalpurush"
+                                android:text="অযু হল ইসলামের বিধান অনুসারে দেহের অঙ্গ-প্রতঙ্গ ধৌত করার মাধ্যমে পবিত্রতা অর্জনের একটি পন্থা।\n মুসলমানদের নামাজের পূর্বে অযু করে নেয়া বাধ্যতামূলক।\n\n কুরআনে আছে, 'নিশ্চয়ই আল্লাহ তওবাকারী এবং অপবিত্রতা থেকে যারা বেঁচে থাকে তাদেরকে পছন্দ করেন।[১] (সূরা বাকারা, আয়াত:২২২)।"
+                                android:layout_gravity="center"
+                                android:textColor="@color/primary"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="10dp"
+                                android:fontFamily="@font/kalpurush"
+                                android:text="ওয়েবসাইটঃ- উইকিপিডিয়া, মুক্ত বিশ্বকোষ থেকে"
+                                android:textAlignment="center"
+                                android:textColor="@color/primary"
+                                android:textIsSelectable="true"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        app:cardBackgroundColor="@color/purple_700"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="3dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="left"
+                                android:layout_margin="10dp"
+                                android:fontFamily="@font/kalpurush"
+                                android:text="📗 ওযুর জন্য আপনারা যেসব পানি ব্যবহার করবেন..."
+                                android:textColor="@color/primary"
+                                android:textIsSelectable="true"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="left"
+                                android:layout_marginLeft="10dp"
+                                android:fontFamily="@font/kalpurush"
+                                android:text="১। প্রবাহমান জলের পানি দ্বারাঃ যেমন নদী,খাল \n   (কারণ নদীর পানি সর্বদা প্রবাহমান থাকে)\n২। বরফ গলা পানি\n৩। বৃষ্টির পানি।\n৪। কূয়ার পানি\n৫। ঝর্ণা, সাগর এর পানি।"
+                                android:textColor="@color/primary"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="10dp"
+                                android:fontFamily="@font/kalpurush"
+                                android:text="ওয়েবসাইটঃ- উইকিপিডিয়া, মুক্ত বিশ্বকোষ থেকে"
+                                android:textAlignment="center"
+                                android:textColor="@color/primary"
+                                android:textIsSelectable="true"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        app:cardBackgroundColor="@color/purple_700"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="3dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="left"
+                                android:layout_margin="10dp"
+                                android:fontFamily="@font/kalpurush"
+                                android:text="📗 ওযুর জন্য আপনারা যেসব পানি দ্বারা করতে পারবেন না..."
+                                android:textColor="@color/primary"
+                                android:textIsSelectable="true"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_margin="2dp"
+                                android:fontFamily="@font/kalpurush"
+                                android:text="@string/oju_vonger_pani"
+                                android:textColor="@color/primary"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="10dp"
+                                android:fontFamily="@font/kalpurush"
+                                android:text="ওয়েবসাইটঃ- উইকিপিডিয়া, মুক্ত বিশ্বকোষ থেকে"
+                                android:textAlignment="center"
+                                android:textColor="@color/primary"
+                                android:textIsSelectable="true"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        app:cardBackgroundColor="@color/purple_700"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="3dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:orientation="vertical">
+
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="left"
+                                android:layout_margin="10dp"
+                                android:fontFamily="@font/kalpurush"
+                                android:text="📗 ওযুর ফরজ ৪ টি..."
+                                android:textColor="@color/primary"
+                                android:textIsSelectable="true"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_margin="2dp"
+                                android:fontFamily="@font/kalpurush"
+                                android:text="@string/ojur_niyom"
+                                android:textColor="@color/primary"
+                                android:textSize="17sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="left"
+                                android:layout_margin="10dp"
+                                android:fontFamily="@font/kalpurush"
+                                android:text="সংকলনঃ নূরানি পদ্ধতিতে কুরআন শিক্ষা"
+                                android:textColor="@color/primary"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        app:cardBackgroundColor="@color/purple_700"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="3dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="left"
+                                android:layout_margin="10dp"
+                                android:fontFamily="@font/kalpurush"
+                                android:text="📗 ওযুর পদ্ধতি (যেভাবে ওযু করতে হয়)..."
+                                android:textColor="@color/primary"
+                                android:textIsSelectable="true"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="left"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="@font/kalpurush"
+                                android:text="\n ১। ওযুর প্রথমে ওযুর নিয়ত করব।
+\n ২। তারপরে বিসমিল্লাহ বলে শুরু করব।
+\n ৩। প্রথমে দুই হাতের কবজি সহ ধুতে হবে, \n     তাহার সাথে আঙ্গুলগুলো ভালভাবে ধুবো।
+\n ৪। পরে তিনবার মেছওয়াক করা সুন্নাত।
+\n ৫। এর পরে ৩ বার কুলি করব।
+\n ৬। এর পরে ৩ বার নাকে পানি দেব।
+\n ৭। তারপরে সমস্ত মুখ ৩ বার পানি দিয়ে \n     ভালভাবে ধৌত করব।
+\n ৮। তারপরে ডান হাত কুনুইসহ ৩ বার ধৌত করব।
+\n ৯। তারপরে বাম হাতের কুনুইসহ ৩ বার ধৌত করব।
+\n ১০। এর পরে সমস্ত মাথা আমরা মাছেহ করব।\n     একই সাথে ভিজা শাহাদাত আঙ্গুলি দ্বারা কানের \n     ভেতরে ও বুড়ো আঙ্গুল দ্বারা কানের পিঠ মাছেহ করব। \n     এর পরে গর্দান মাছেহ করব।
+\n ১১। এরপরে আমরা ডান এবং বাম পা টাখনুসহ \n      তিনবার করে ধৌত করব।
+\n ১২। অতঃপর আমরা কালেমা শাহাদাত পাঠ করব।"
+                                android:textColor="@color/primary"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="10dp"
+                                android:fontFamily="@font/kalpurush"
+                                android:text="সংকলনঃ নূরানি পদ্ধতিতে কুরআন শিক্ষা"
+                                android:textAlignment="center"
+                                android:textColor="@color/primary"
+                                android:textIsSelectable="true"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        app:cardBackgroundColor="@color/purple_700"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="3dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:orientation="vertical">
+
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="left"
+                                android:layout_margin="10dp"
+                                android:fontFamily="@font/kalpurush"
+                                android:text="📗 ওযু ভঙ্গের কারণ ৭ টি ..."
+                                android:textColor="@color/primary"
+                                android:textIsSelectable="true"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="left"
+                                android:layout_margin="10dp"
+                                android:fontFamily="@font/kalpurush"
+                                android:text="কোন ব্যক্তি অযু করার পর কিছু নির্দিষ্ট কাজ না করলে তার অযু অবিরত বলবৎ থাকে। ঐ কাজগুলো করার মাধ্যমে অযু অকার্যকর হয় যা অযু ভেঙ্গে হওয়াও বলে।"
+                                android:textColor="@color/primary"
+                                android:textIsSelectable="true"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="left"
+                                android:layout_margin="2dp"
+                                android:fontFamily="@font/kalpurush"
+                                android:text="  ১। পায়খানা-পেশাবের রাস্তা দিয়ে কোন কিছু বের হওয়া।
+\n  ২। মুখ ভরিয়া বমি হওয়া।
+\n  ৩। শরীরের কোন জায়গা হয়ে রক্ত,পুজ,পানি বাহির \n    হইয়া গড়াইয়া পড়া।
+\n  ৪। থুথুর সাথে রক্তের ভাগ সমান বা বেশি হওয়া।
+\n  ৫। চিত বা কাত হয়ে হেলান দিয়ে ঘুমাইলে।
+\n  ৬। পাগল, মাতাল, অচেতন হইলে
+\n  ৭। নামাযে উচ্চস্বরে হাসিলে।"
+                                android:textColor="@color/primary"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="left"
+                                android:layout_margin="10dp"
+                                android:fontFamily="@font/kalpurush"
+                                android:text="সংকলনঃ নূরানি পদ্ধতিতে কুরআন শিক্ষা"
+                                android:textColor="@color/primary"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        app:cardBackgroundColor="@color/purple_700"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="3dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:orientation="vertical">
+
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="left"
+                                android:layout_margin="10dp"
+                                android:fontFamily="@font/kalpurush"
+                                android:text="📗 গোসল এর ফরজ ৩ টি..."
+                                android:textColor="@color/primary"
+                                android:textIsSelectable="true"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_margin="2dp"
+                                android:fontFamily="@font/kalpurush"
+                                android:text="১। কুলি করা \n২। নাকে পানি দেওয়া \n৩। সমস্ত শরীর ধৌত করা"
+                                android:textColor="@color/primary"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="10dp"
+                                android:fontFamily="@font/kalpurush"
+                                android:text="সংকলনঃ- নূরানি পদ্ধতিতে কুরআন শিক্ষা"
+                                android:textAlignment="center"
+                                android:textColor="@color/primary"
+                                android:textIsSelectable="true"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

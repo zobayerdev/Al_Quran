@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialog_background"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/kalpurush"
+        android:text="ঈদুল ফিতর"
+        android:textAlignment="center"
+        android:textColor="@color/purple_200"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:scrollbars="none"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--কার্ড ভিউ-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="vertical">
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    app:cardBackgroundColor="@color/purple_700"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="3dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:fontFamily="@font/kalpurush"
+                            android:text="ঈদুল ফিতর (আরবি: عيد الفطر, অর্থ: রোজা/উপবাস ভাঙার আনন্দ) ধর্মীয় পরিভাষায় একে ‍ইয়াওমুল জায়েজ‍ (অর্থ: পুরস্কারের দিবস) হিসেবেও বর্ণনা করা হয়েছে। দীর্ঘ এক মাস রোজা রাখা বা সিয়াম সাধনার পর মুসলমানেরা এই দিনটি ধর্মীয় কর্তব্যপালনসহ খুব আনন্দের সাথে পালন করে থাকে।[২] এই দিনে সবাই সবাইকে ঈদ মোবারক বলে শুভেচ্ছা জানায়।"
+                            android:textAlignment="center"
+                            android:textColor="@color/primary"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:fontFamily="@font/kalpurush"
+                            android:text="ইতিহাস"
+                            android:textAlignment="center"
+                            android:textColor="@color/purple_200"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:fontFamily="@font/kalpurush"
+                            android:text="মুসলিম ঐতিহ্য অনুযায়ী ঈদুল ফিতর ইসলামের নবী হযরত মুহাম্মাদ (সঃ) দ্বারা উদ্ভূত হয়েছিল।[৩] কিছু হাদিস অনুসারে, মক্কা থেকে মুহাম্মাদের হিজরতের পর এই উৎসবগুলো মদিনায় শুরু হয়েছিল। নবির একজন সুপরিচিত সাহাবি আনাস বর্ণনা করেছেন যে, মুহাম্মাদ যখন মদিনায় পৌঁছেছিলেন, তখন তিনি দেখতে পান যে সেখানের লোকেরা দুটি নির্দিষ্ট দিন উদযাপন করছে যেখানে তাঁরা বিনোদন এবং আনন্দের সাথে নিজেদের আপ্যায়ন করছে। এতে মুহাম্মাদের মন্তব্য করেন যে আল্লাহ উৎসবের দুটি দিন নির্ধারণ করেছেন: ঈদুল ফিতর এবং ঈদুল আযহা।[৪]"
+                            android:textAlignment="center"
+                            android:textColor="@color/primary"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+
+            </LinearLayout>
+
+            <!--কার্ড ভিউ-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        app:cardBackgroundColor="@color/purple_700"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="3dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="10dp"
+                                android:fontFamily="@font/kalpurush"
+                                android:gravity="center"
+                                android:text="ঈদুল ফিতর নামাযের নিয়ম"
+                                android:textColor="@color/purple_200"
+                                android:textSize="22sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="left"
+                                android:layout_margin="10dp"
+                                android:fontFamily="@font/kalpurush"
+                                android:text="ইমামের পেছনে কেবলামুখি হয়ে ঈদুল ফিতরের দু’রাকাত ওয়াজিব নামাজ ৬ তাকবিরের সঙ্গে আদায়া করছি- এরূপ নিয়ত করে ‘আল্লাহু আকবার’ বলে হাত তুলে তাহরিমা বাঁধবেন। তারপর সানা (সুবহানাকাল্লাহুম্মা) পুরোটা পড়বে।এরপর আউযুবিল্লাহ এবং বিসমিল্লাহর আগে তিনবার ‘আল্লাহু আকবার’ বলে তাকবির বলবেন। প্রথম দু’বার কান পর্যন্ত হাত উঠিয়ে ছেড়ে দেবেন। কিন্তু তৃতীয়বার বলে হাত বেঁধে নেবেন। প্রত্যেক তাকবিরের পর তিনবার সুবহানাল্লাহ বলা যায় পরিমাণ থামবে।তারপর আউযুবিল্লাহ এবং বিসমিল্লাহ পড়ে সূরায়ে ফাতেহার পরে একটা সূরা মেলাবেন। এরপর রুকু, সিজদা করে দ্বিতীয় রাকাতের জন্য দাঁড়াবেন। এবার অন্যান্য নামাজের মতো বিসমিল্লাহর পরে সূরা ফাতেহা পড়ে আরেকটা সূরা মেলাবেন। তারপর তিনবার ‘আল্লাহু আকবার’ বলার মাধ্যমে তিনটা তাকবির সম্পন্ন করবেন। এখানে প্রতি তাকবিরের পর হাত ছেড়ে দেবেন এবং চতুর্থবার ‘আল্লাহু আকবার’ বলে হাত না বেঁধে রুকুতে চলে যাবেন। এরপর সেজদা এবং আখেরি বৈঠক করে যথারীতি সালাম ফিরিয়ে নামাজ শেষ করবেন।"
+                                android:textColor="@color/primary"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

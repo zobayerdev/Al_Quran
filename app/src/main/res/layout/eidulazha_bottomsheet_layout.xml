@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialog_background"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/kalpurush"
+        android:text="ঈদুল আযহা"
+        android:textAlignment="center"
+        android:textColor="@color/purple_200"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--কার্ড ভিউ-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="vertical">
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    app:cardBackgroundColor="@color/purple_700"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="3dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:fontFamily="@font/kalpurush"
+                            android:text="ঈদুল আযহা মূলত আরবি বাক্যাংশ। এর অর্থ হলো ‘ত্যাগের উৎসব’।[২] এই উৎসবের মূল প্রতিপাদ্য বিষয় হল ত্যাগ করা। এ দিনটিতে মুসলমানেরা ফযরের নামাযের পর ঈদগাহে গিয়ে দুই রাক্বাত ঈদুল আযহার নামাজ আদায় করে ও অব্যবহিত পরে স্ব-স্ব আর্থিক সামর্থ্য অনুযায়ী গরু, ছাগল, ভেড়া, মহিষ ও উট আল্লাহর নামে কোরবানি করে।"
+                            android:textAlignment="center"
+                            android:textColor="@color/primary"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+
+            </LinearLayout>
+
+            <!--কার্ড ভিউ-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        app:cardBackgroundColor="@color/purple_700"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="3dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="10dp"
+                                android:fontFamily="@font/kalpurush"
+                                android:gravity="center"
+                                android:text="ঈদুল আযহা নামাযের নিয়ম"
+                                android:textColor="@color/purple_200"
+                                android:textSize="22sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="left"
+                                android:layout_margin="10dp"
+                                android:fontFamily="@font/kalpurush"
+                                android:text=" ঈদের দুই রাকাত নামাজে অতিরিক্ত ছয় তাকবির দিতে হয়। প্রথম রাকাত: আল্লাহ তাআলার উদ্দেশ্যে কিবলামুখী হয়ে ঈদুল আজহার দুই রাকাত ওয়াজিব নামাজ ছয় তাকবিরের সঙ্গে এই ইমামে পিছনে আদায় করছি বলে নিয়ত বাঁধতে হয়।
+প্রথমেই- তাকবিরে তাহরিমা- ‘আল্লাহু আকবার’ বলে নিয়ত বাঁধবেন। ইমাম ও মুসল্লিরা নিয়ত বাঁধার পর ছানা অর্থাৎ এ দোয়াটি পড়বে-
+উচ্চারণ: সুবহানাকা আল্লাহুম্মা ওয়া বিহামদিকা ওয়া তাবারাকাসমুকা ওয়া তাআলা ঝাদ্দুকা ওয়া লা ইলাহা গাইরুক। তারপর ইমামের উচ্চস্বরে তাকবির বলার সঙ্গে সঙ্গে মুসল্লিরাও তাকবির বলবেন। প্রথম ও দ্বিতীয় তাকবির বলার সময় উভয় হাত কান বরাবর ওঠিয়ে ছেড়ে দিবেন।
+তৃতীয় তাকবিরের সময় উভয় হাত কান বরাবর ওঠিয়ে না ছেড়ে হাত বাঁধবেন। এরপর ইমাম সাহেব সূরা ফাতিহা এবং অন্য সুরা মিলিয়ে রুকু, সিজদা করবেন; মুসল্লিরাও ইমামের সঙ্গ রুকু সিজদা করবেন।
+দ্বিতীয় রাকাত: ইমাম সাহেব দ্বিতীয় রাকাতে সূরা ফাতিহা ও অন্য সূরা মিলানোর পর রুকুতে যাওয়ার পূর্বে অতিরিক্ত তিন তাকবির প্রথম রাকাতের মতোই আদায় করবেন। অতপর রুকু-সিজদা করার পর অন্যান্য নামাজের মতোই সালাম ফিরানোর মাধ্যমে নামাজ সম্পন্ন করবেন।"
+                                android:textColor="@color/primary"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--কার্ড ভিউ-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        app:cardBackgroundColor="@color/purple_700"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="3dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="10dp"
+                                android:fontFamily="@font/kalpurush"
+                                android:gravity="center"
+                                android:text="পশু কোরবানির দোয়া"
+                                android:textColor="@color/purple_200"
+                                android:textSize="22sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="10dp"
+                                android:fontFamily="@font/kalpurush"
+                                android:gravity="left"
+                                android:text="কুরবানির পশু জবেহ করার জন্য শোয়ানোর পর দোয়া পড়া। এ দোয়াটি বিভিন্ন হাদিসে বর্ণিত হয়েছে। যদিও অনেকে দোয়াটির সনদের ব্যাপারে মতপার্থক্য করেছেন। তবে এ দোয়াগুলো পড়ে কুরবানি করা উত্তম। তবে কেউ শুধু বিসমিল্লাহ বলে নালীগুলো কেটে দিলেই কুরবানি শুদ্ধ হয়ে যাবে।"
+                                android:textColor="@color/purple_200"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="10dp"
+                                android:fontFamily="@font/kalpurush"
+                                android:gravity="left"
+                                android:text="নিম্মের দোয়া পড়তে হয়ঃ"
+                                android:textColor="@color/purple_200"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="left"
+                                android:layout_margin="10dp"
+                                android:fontFamily="@font/arbifont"
+                                android:text="اَللَّهُمَّ إِنِّي وَجَّهْتُ وَجْهِيَ لِلَّذِي فَطَرَ السَّمَاوَاتِ وَالْأَرْضَ عَلَى مِلَّةِ اِبْرَاهِيْمَ حَنِيفًا وَمَا أَنَا مِنَ الْمُشْرِكِينَ – إِنَّ صَلَاتِي وَنُسُكِي وَمَحْيَايَ وَمَمَاتِي لِلَّهِ رَبِّ الْعَالَمِينَ – لَا شَرِيكَ لَهُ وَبِذَٰلِكَ أُمِرْتُ وَأَنَا مِنَ الْمُسْلِمِينَ – بِسْمِ اللهِ اَللهُ اِكِبَر – اَللَّهُمَّ مِنْكَ وَ لَكَ"
+                                android:textColor="@color/primary"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="10dp"
+                                android:fontFamily="@font/kalpurush"
+                                android:gravity="left"
+                                android:text="বাংলা উচ্চারনঃ  ইন্নি ওয়াঝঝাহতু ওয়াঝহিয়া লিল্লাজি ফাতারাস সামাওয়াতি ওয়াল আরদা আলা মিল্লাতি ইবরাহিমা হানিফাও ওয়া মা আনা মিনাল মুশরিকিন। ইন্না সালাতি ওয়া নুসুকি ওয়া মাহইয়ায়া ওয়া মামাতি লিল্লাহি রাব্বিল আলামিন। লা শারিকা লাহু ওয়া বি-জালিকা উমিরতু ওয়া আনা মিনাল মুসলিমিন। বিসমিল্লাহি আল্লাহু আকবার, আল্লাহুম্মা মিনকা ও লাকা।"
+                                android:textColor="@color/purple_200"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

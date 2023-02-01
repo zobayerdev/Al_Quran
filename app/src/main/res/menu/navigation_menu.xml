@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:title="নোটিফিকেশান"
+        android:id="@+id/nav_notification_notice"
+        android:icon="@drawable/ic_notification"/>
+    <item
+        android:title="পরামর্শ প্রদান করুন"
+        android:id="@+id/nav_req_dev"
+        android:icon="@drawable/ic_request_admin"/>
+    <item
+        android:title="ডেভেলপার"
+        android:id="@+id/nav_dev"
+        android:icon="@drawable/ic_dev"/>
+    <item
+        android:title="প্রাইভেসি পলিসি"
+        android:id="@+id/nav_policy"
+        android:icon="@drawable/ic_privacy"/>
+    <item
+        android:title="শেয়ার করুন"
+        android:id="@+id/nav_share"
+        android:icon="@drawable/ic_share"/>
+    <item
+        android:title="রেটিং দিন"
+        android:id="@+id/nav_rate"
+        android:icon="@drawable/ic_rate"/>
+
+</menu>

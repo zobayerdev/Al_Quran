@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardView"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            >
+
+            <LinearLayout
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:paddingLeft="2dp">
+
+                <LinearLayout
+                    android:layout_margin="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="left"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/kalpurush"
+                        android:text="আমল নংঃ"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/number"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:fontFamily="@font/kalpurush"
+                        android:text="ঘুমের দোয়া"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        />
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_margin="5dp"
+                    android:layout_gravity="left"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/kalpurush"
+                    android:text="আমলের বিবরনঃ"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"
+                    android:layout_marginTop="5dp"
+                    android:textIsSelectable="true"
+                    android:textColorLink="@color/green_200"
+                    android:textStyle="bold"
+                    />
+
+
+                <TextView
+                    android:id="@+id/des"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_margin="5dp"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/kalpurush"
+                    android:paddingLeft="10dp"
+                    android:text="বিবরন ও ফযিলত"
+                    android:textColor="@color/black"
+                    android:textColorLink="@color/green_200"
+                    android:textIsSelectable="true"
+                    android:textSize="17sp"
+
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="7dp"
+                    android:layout_gravity="right"
+                    >
+
+
+                <TextView
+                    android:layout_margin="5dp"
+                    android:layout_gravity="right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/kalpurush"
+                    android:text="উৎসঃ"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:layout_marginTop="5dp"
+                    android:textIsSelectable="true"
+                    android:textColorLink="@color/green_200"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:id="@+id/source"
+                    android:layout_margin="5dp"
+                    android:layout_gravity="right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/kalpurush"
+                    android:text="উৎস "
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:layout_marginTop="5dp"
+                    android:textIsSelectable="true"
+                    android:textColorLink="@color/green_200"
+                    />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+<!--        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="3"
+            >
+
+            <ImageView
+                android:id="@+id/copy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_copy"
+                android:layout_weight="1"
+                />
+
+            <ImageView
+                android:id="@+id/share_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_share"
+                android:layout_weight="1"
+                />
+
+        </LinearLayout>-->
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
