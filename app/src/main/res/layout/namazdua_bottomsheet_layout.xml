@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialog_background"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/kalpurush"
+        android:text="নামাযের দোয়া"
+        android:textAlignment="center"
+        android:textColor="@color/purple_200"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:scrollbars="none"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--কার্ড ভিউ-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="vertical">
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    app:cardBackgroundColor="@color/purple_700"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="3dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:fontFamily="@font/kalpurush"
+                            android:text="নামাযের ভেতর এইসব দোয়া পড়তে হয়"
+                            android:textAlignment="center"
+                            android:textColor="@color/primary"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+
+            </LinearLayout>
+            <!--jaynamazer doya-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        app:cardBackgroundColor="@color/purple_700"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="3dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="10dp"
+                                android:fontFamily="@font/kalpurush"
+                                android:gravity="left"
+                                android:text="জায়নামাযের দোয়াঃ"
+                                android:textColor="@color/purple_200"
+                                android:textSize="22sp"
+                                android:textStyle="bold" />
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="10dp"
+                                android:fontFamily="@font/arbifont"
+                                android:gravity="right"
+                                android:text="اِنِّىْ وَجَّهْتُ وَجْهِىَ لِلَّذِىْ فَطَرَالسَّمَوَتِ وَاْلاَرْضَ حَنِيْفَاوَّمَااَنَا مِنَ الْمُشْرِكِيْنَ"
+                                android:textColor="@color/purple_200"
+                                android:textSize="22sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="left"
+                                android:layout_margin="10dp"
+                                android:fontFamily="@font/kalpurush"
+                                android:text="বাংলা উচ্চারনঃ- ইন্নি ওয়াজ্জাহাতু ওজহিয়া লিল্লাযী ফাতারাচ্ছামাওয়াতি ওয়াল আরদা হানিফাঁও ওয়ামা আনা মিনাল মুশরিকীন ।"
+                                android:textColor="@color/primary"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="left"
+                                android:layout_margin="10dp"
+                                android:fontFamily="@font/kalpurush"
+                                android:text="বাংলা অনুবাদঃ- নিশ্চই আমি তাঁহার দিকে মুখ ফিরাইলাম, যিনি আসমান জমিন সৃষ্টি করিয়াছেন । আমি মুশরিকদিগের দলভুক্ত নহি ।"
+                                android:textColor="@color/primary"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <!--sana-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        app:cardBackgroundColor="@color/purple_700"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="3dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="10dp"
+                                android:fontFamily="@font/kalpurush"
+                                android:gravity="left"
+                                android:text="সানাঃ"
+                                android:textColor="@color/purple_200"
+                                android:textSize="22sp"
+                                android:textStyle="bold" />
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="10dp"
+                                android:fontFamily="@font/arbifont"
+                                android:gravity="right"
+                                android:text=" سُبْحَانَكَ اَللَّهُمَّ وَ بِحَمْدِكَ وَ تَبَارَكَ اسْمُكَ وَ تَعَالِىْ جَدُّكَ وَ لَا اِلَهَ غَيْرُكَ"
+                                android:textColor="@color/purple_200"
+                                android:textSize="22sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="left"
+                                android:layout_margin="10dp"
+                                android:fontFamily="@font/kalpurush"
+                                android:text="বাংলা উচ্চারনঃ- সুবহানাকা আল্লাহুম্মা ওয়া বিহামদিকা, ওয়া তাবারাকাসমুকা, ওয়া তাআলা জাদ্দুকা ওয়া লা ইলাহা গাইরুকা।"
+                                android:textColor="@color/primary"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="left"
+                                android:layout_margin="10dp"
+                                android:fontFamily="@font/kalpurush"
+                                android:text="বাংলা অনুবাদঃ- হে আল্লাহ্! আমি তোমার পবিত্রতা বর্ণনা করছি। তুমি প্রশংসাময়, তোমার নাম বরকতময়, তোমার মর্যাদা অতি উচ্চে, আর তুমি ব্যতীত সত্যিকার কোনো মাবুদ নেই।"
+                                android:textColor="@color/primary"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        app:cardBackgroundColor="@color/purple_700"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="3dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="10dp"
+                                android:fontFamily="@font/kalpurush"
+                                android:gravity="left"
+                                android:text="তাসাহুদ"
+                                android:textColor="@color/purple_200"
+                                android:textSize="22sp"
+                                android:textStyle="bold" />
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="10dp"
+                                android:fontFamily="@font/arbifont"
+                                android:gravity="right"
+                                android:text="التَّحِيَّاتُ لِلَّهِ وَالصَّلَوَاتُ وَالطَّيِّبَاتُ ، السَّلَامُ عَلَيْكَ أَيُّهَا النَّبِيُّ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ ، السَّلَامُ عَلَيْنَا وَعَلَى عِبَادِ اللَّهِ الصَّالِحِينَ ، أَشْهَدُ أَنْ لَا إِلَهَ إِلَّا اللَّهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ"
+                                android:textColor="@color/purple_200"
+                                android:textSize="22sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_margin="10dp"
+                                android:fontFamily="@font/kalpurush"
+                                android:text="বাংলা উচ্চারনঃ- আত্তাহিয়্যাতু লিল্লাহি ওয়াস-সালাওয়াতু ওয়াত-ত্বায়্যিবাতু; আস-সালামু আলাইকা আইয়্যুহান নাবিয়্যু ওয়া রাহমাতুল্লাহি ওয়া বারাকাতুহ; আসসালামু আলাইনা ওয়া আলা ইবাদিল্লাহিছ ছালিহীন; আশহাদু আল লা ইলাহা ইল্লাল্লাহু ওয়া আশহাদু আন্না মুহাম্মাদান আবদুহু ওয়া রাসুলুহু।"
+                                android:textColor="@color/primary"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_margin="10dp"
+                                android:fontFamily="@font/kalpurush"
+                                android:text="বাংলা অনুবাদঃ- সব মৌখিক ইবাদত আল্লাহর জন্য। হে নবি! আপনার প্রতি শান্তি বর্ষিত হোক এবং আল্লাহর অনুগ্রহ ও বরকত বর্ষিত হোক। শান্তি আমাদের ওপর এবং আল্লাহর নেক বান্দাদের ওপর বর্ষিত হোক। আমি সাক্ষ্য দিচ্ছি যে, আল্লাহ ব্যতীত আর কোনো মাবুদ বা উপাস্য নাই এবং আমি আরও সাক্ষ্য দিচ্ছি যে, নিশ্চয়ই মুহাম্মাদ সাল্লাল্লাহু আলাইহি ওয়া সাল্লাম আল্লাহর বান্দা ও রাসুল।"
+                                android:textColor="@color/primary"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        app:cardBackgroundColor="@color/purple_700"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="3dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="10dp"
+                                android:fontFamily="@font/kalpurush"
+                                android:gravity="left"
+                                android:text="দুরুদ শরীফঃ"
+                                android:textColor="@color/purple_200"
+                                android:textSize="22sp"
+                                android:textStyle="bold" />
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="10dp"
+                                android:fontFamily="@font/arbifont"
+                                android:gravity="right"
+                                android:text="َللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَعَلَى اَلِ مُحَمَّدٍ كَمَا صَلَّيْتَ عَلَى اِبْرَ اهِيْمَ وَعَلَى اَلِ اِبْرَ اهِيْمَ اِنَّكَ حَمِيْدٌ مَّجِيْدٌ
+اَللَّهُمَّ بَارِكْ عَلَى مُحَمَّدٍ وَعَلَى اَلِ مُحَمَّدٍ كَمَا بَارَكْتَ عَلَى اِبْرَ اهِيْمَ وَعَلَى اَلِ اِبْرَاهِيْمَ اِنَّكَ حَمِيْدٌمَّجِيْدٌ"
+                                android:textColor="@color/purple_200"
+                                android:textSize="22sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_margin="10dp"
+                                android:fontFamily="@font/kalpurush"
+                                android:text="বাংলা উচ্চারনঃ- আল্লাহুম্মা সাল্লিআলা মুহাম্মাদিঁ ওয়া আলা আলি মুম্মাদিন কামা সাল্লাইতা আলা ইব্রাহীমা ওয়া আলা আলি ইব্রাহীমা ইন্নাকা হামিদুম্মাজীদ । আল্লাহুম্মা বারিক আলা মুহাম্মাদিঁ ওয়া আলা আলি মুহাম্মাদিন কামা বারাকতা আলা ইব্রাহীমা ওয়া আলা আলি ইব্রাহীমা ইন্নাকা হামীদুম্মাজীদ।"
+                                android:textColor="@color/primary"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_margin="10dp"
+                                android:fontFamily="@font/kalpurush"
+                                android:text="বাংলা অনুবাদঃ- যে আল্লাহ! মুহাম্মদ (সাল্লাল্লাহু আলাইহে ওয়া সাল্লাম) এবং তাঁহার বংশধরগণের উপর ঐরূপ আশীর্বাদ অবতীর্ণ কর যেইরূপ আর্শীবাদ হযরত ইব্রাহিম (আঃ) এবং তাঁহার বংশধরগণের উপর অবতীর্ণ করিয়াছ । নিশ্চই তুমি প্রশংসা ভাজন এবং মহামহিম । হে আল্লাহ! মুহাম্মদ (সাল্লাল্লাহু আলাইহে ওয়া সাল্লাম) এবং তাঁহার বংশধরগণের উপর সেইরূপ অনুগ্রহ কর যে রূপ অনুগ্রহ ইব্রাহীম (আঃ) এবং তাঁহার বংশরগণের উপর করিয়াছ । নিশ্চয়ই তুমি প্রশংসা ভাজন এবং মহামহিম।"
+                                android:textColor="@color/primary"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        app:cardBackgroundColor="@color/purple_700"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="3dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="10dp"
+                                android:fontFamily="@font/kalpurush"
+                                android:gravity="left"
+                                android:text="দোয়া মাসুরাঃ"
+                                android:textColor="@color/purple_200"
+                                android:textSize="22sp"
+                                android:textStyle="bold" />
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="10dp"
+                                android:fontFamily="@font/arbifont"
+                                android:gravity="right"
+                                android:text="اللَّهُمَّ اغْفِرْ لِىْ وَلِوَ الِدَىَّ وَلِمَنْ تَوَالَّدَ وَلِجَمِيْعِ الْمُؤْ مِنِيْنَ وَالْمُؤْ مِنَاتِ وَالْمُسْلِمِيْنَ وَالْمُسْلِمَاتِ وَالاْاَحْيَاءِ مِنْهُمْ وَالْاَمُوْ اَتْ بِرَحْمَتِكَ يَااَرْحَمَرَّحِمِيْنَ"
+                                android:textColor="@color/purple_200"
+                                android:textSize="22sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_margin="10dp"
+                                android:fontFamily="@font/kalpurush"
+                                android:text="বাংলা উচ্চারনঃ-  আল্লাহুমাগ ফিরলী ওয়ালি ওয়ালিদাইয়্যা ওয়ালিমান তাওয়াল্লাদা ওয়ালি জামীঈল, মু’মিনীনা ওয়াল মুমিনাত, ওয়াল মুসলিমীনা ওয়াল মুসলিমাত, ওয়াল আহ্ইয়ায়ি মিনহুম ওয়াল আমুয়াত, বিরাহমাতিকা ইয়া আরহামার রাহিমীন।"
+                                android:textColor="@color/primary"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_margin="10dp"
+                                android:fontFamily="@font/kalpurush"
+                                android:text="বাংলা অনুবাদঃ- হে পরম করুণাময় আল্লাহ তায়ালা! আমাকে, আমার পিতা মাতাকে, সন্তান-সন্ততিকে, সমস্ত মু’মিন পুরুষ ও নারীকে এবং জীবিত মৃত সমস্ত মুসলিম নর-নারীকে ক্ষমা কর।"
+                                android:textColor="@color/primary"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        app:cardBackgroundColor="@color/purple_700"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="3dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="10dp"
+                                android:fontFamily="@font/kalpurush"
+                                android:gravity="left"
+                                android:text="দোয়া কুনুতঃ"
+                                android:textColor="@color/purple_200"
+                                android:textSize="22sp"
+                                android:textStyle="bold" />
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="10dp"
+                                android:fontFamily="@font/arbifont"
+                                android:gravity="right"
+                                android:text="اللّهُمَّ إِنَّا نَسْتَعِينُكَ وَنَسْتَغْفِرُكَ وَنُؤْمِنُ بِكَ وَنَتَوَكَّلُ عَلَيْكَ وَنُثْنِيْ عَلَيْكَ الْخَيْرَ وَنَشْكُرُكَ وَلاَ نَكْفُرُكَ، وَنَخْلَعُ وَنَتْرُكُ مَنْ يَّفْجُرُكَ، اللّهُمَّ إِيَّاكَ نَعْبُدُ، وَلَكَ نُصَلِّيْ وَنَسْجُدُ، وَإِلَيْكَ نَسْعٰى وَنَحْفِدُ، نَرْجُو رَحْمَتَكَ وَنَخْشٰى عَذَابَكَ، إِنَّ عَذَابَكَ بِالْكُفَّارِ مُلْحِقٌ.َ"
+                                android:textColor="@color/purple_200"
+                                android:textSize="22sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_margin="10dp"
+                                android:fontFamily="@font/kalpurush"
+                                android:text="বাংলা উচ্চারনঃ-  আল্লাহুম্মা ইন্না নাসতায়িনুকা ওয়া নাসতাগফিরুকা ওয়া নুমিনুবিকা ওয়া নাতাওয়াক্কালু আলাইকা ওয়া নুছনি আলাইকাল খাইরা ওয়া নাশকুরুকা ওয়া লা নাকফুরুকা, ওয়া নাখলাউ ওয়া নাতরুকু মাইয়্যাফঝুরুকা, আল্লাহুম্মা ইয়্যাকা নাবুদু, \nওয়া লাকা নুসাল্লি ওয়া নাসঝুদু, ওয়া ইলাইকা নাসআ ওয়া নাহফিদু, নারঝু রাহমাতাকা ও নাখশা আজাবাকা, ইন্না আজাবাকা বিল-কুফ্ফারি মুলহিক্ব।"
+                                android:textColor="@color/primary"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_margin="10dp"
+                                android:fontFamily="@font/kalpurush"
+                                android:text="বাংলা অনুবাদঃ- হে আল্লাহ! আমরা তোমারই সাহায্য চাই। তোমার কাছেই ক্ষমা প্রার্থনা করি। তোমার ওপর ঈমান আনি। তোমার ওপরই ভরসা করি। আর তোমার প্রশংসা করি। আমরা তোমার কৃতজ্ঞতা প্রকাশ করি। অকৃতজ্ঞ হই না। যে তোমার নাফরমানী করে, আমরা তাকে ত্যাগ করি, বর্জন করি।
+হে আল্লাহ! আমরা তোমারই ইবাদত করি, তোমারই জন্য নামাজ পড়ি এবং সেজদা করি। তোমারই দিকে ধাবিত হই এবং তোমারই আনুগত্য করি। তোমার রহমতের আশা রাখি আর তোমার আজাবকে ভয় করি। নিশ্চয়ই তোমার আজাব কাফেরদের ধরে ফেলবে।"
+                                android:textColor="@color/primary"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

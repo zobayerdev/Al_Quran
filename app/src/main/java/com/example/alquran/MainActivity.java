@@ -147,7 +147,7 @@ public class MainActivity extends AppCompatActivity {
         prayEdu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // startActivity(new Intent(MainActivity.this, NamazEducation.class));
+                 startActivity(new Intent(MainActivity.this, NamazEdu.class));
                 Toast.makeText(MainActivity.this, "নামায শিক্ষা...!", Toast.LENGTH_SHORT).show();
             }
         });

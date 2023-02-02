@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialog_background"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/kalpurush"
+        android:text="নামাযের ফরয ও ওয়াজিব সমূহ"
+        android:textAlignment="center"
+        android:textColor="@color/purple_200"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:scrollbars="none"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--কার্ড ভিউ-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="vertical">
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    app:cardBackgroundColor="@color/purple_700"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="3dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="15dp"
+                            android:fontFamily="@font/kalpurush"
+                            android:text="নামাযের বাহিরে ও ভেতরে ১৩ ফরজ আমাদের এই ফরয সবার মেনে সালাত আদায় করতে হবে। এই ফরযের একটি বাদ পরলে সালাত হবে না।"
+                            android:layout_gravity="center"
+                            android:textColor="@color/purple_200"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:layout_margin="10dp"
+                            android:fontFamily="@font/kalpurush"
+                            android:text="নামাযের বাহিরে ৭ ফরযঃ"
+                            android:textColor="@color/purple_200"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:layout_marginLeft="10dp"
+                            android:fontFamily="@font/kalpurush"
+                            android:text="১। শরীর পাক\n২। কাপড় পাক\n৩। জায়গা পাক\n৪। ছতর ঢাকা\n৫। কেবলামুখী হওয়া\n৬। ওয়াক্ত মত নামায পড়া\n৭। নামাযের নিয়ত করা"
+                            android:layout_gravity="left"
+                            android:textColor="@color/primary"
+                            android:textSize="17.5sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:layout_margin="10dp"
+                            android:fontFamily="@font/kalpurush"
+                            android:text="নামাযের ভেতরে ৬ ফরযঃ"
+                            android:textColor="@color/purple_200"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:fontFamily="@font/kalpurush"
+                            android:text="১। তাকবীরে তাহরিমা বলা।\n২। খাঁড়া হইয়া নামায পড়া \n৩। কেরাত পড়া\n৪। রুকু করা \n৫। দুই সেজদা করা \n৬। আখেরি বৈঠক "
+                            android:layout_gravity="left"
+                            android:textColor="@color/primary"
+                            android:textSize="17.5sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+
+            </LinearLayout>
+
+            <!--কার্ড ভিউ-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        app:cardBackgroundColor="@color/purple_700"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="3dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="10dp"
+                                android:fontFamily="@font/kalpurush"
+                                android:gravity="center"
+                                android:text="নামাযের ওয়াজিব ১৪ টি"
+                                android:textColor="@color/purple_200"
+                                android:textSize="22sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="left"
+                                android:layout_margin="10dp"
+                                android:fontFamily="@font/kalpurush"
+                                android:text="নামাযে ভুলবশত কোন ওয়াজিব ছুটিয়া গেলে নামায শেষে সিজদাহে সাহু করিলে নামায হইয়া যায়। তবে ইচ্ছাকৃত ওয়াজিব তরক করিলে নামায পুনরায় পরিতে হয়।"
+                                android:textColor="@color/purple_200"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="left"
+                                android:layout_margin="10dp"
+                                android:fontFamily="@font/kalpurush"
+                                android:text="১। আলহামদুল্লিল্লাহ শরীফ পুরা পড়া।\n\n২। আলহামদুর সাথে সূরা মিলান।\n\n৩। রুকু সেজদায় দেরি করা।\n\n\৪। রুকু হইতে সোজা হইয়া খাঁড়া হইয়া দেরি করা।\n\n৫। দুই সেজদার মাঝখানে সোজা হইয়া বসিয়া দেরি করা। \n\n৬। দরমিয়ানী বৈঠক ।\n\n৭। দোন বৈঠকে আত্তাহিয়াতু পড়া। \n\n৮। ইমামের জন্য কেরাত আস্তে আস্তে এবং জরে পড়া।\n\n৯। বিতরের নামাযে দোয়া কুনুত পড়া।\n\n১০। দুই ঈদের নামাযে ছয় ছয় তাকবীর বলা।\n\n১১। প্রত্যেক ফরয নামাযের প্রথম দুই রাকাত কেরাতের জন্য নির্ধারণ করা।\n\n ১২। প্রত্যেক রাকাতের ফরযগুলির তারতীব ঠিক রাখা।\n\n ১৩। প্রত্যেক রাকাতের ওয়াজিবগুলোর তারতীব ঠিক রাখা।\n\n ১৪। আসসালামুয়ালাইকুম বলিয়া নামায শেষ করা।"
+                                android:textColor="@color/primary"
+                                android:textSize="17sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

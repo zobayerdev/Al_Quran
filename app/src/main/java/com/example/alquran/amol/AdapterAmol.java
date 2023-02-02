@@ -1,5 +1,6 @@
 package com.example.alquran.amol;
 
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -9,6 +10,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.alquran.AllahnameActivity;
 import com.example.alquran.R;
 import com.example.alquran.dua.AdapterDua;
 import com.google.android.material.card.MaterialCardView;
@@ -26,7 +28,7 @@ public class AdapterAmol extends RecyclerView.Adapter<AdapterAmol.ViewHolder> {
     @NonNull
     @Override
     public AdapterAmol.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.amol_item_design,parent,false);
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.amol_item_design, parent, false);
         return new AdapterAmol.ViewHolder(view);
     }
 
@@ -40,9 +42,8 @@ public class AdapterAmol extends RecyclerView.Adapter<AdapterAmol.ViewHolder> {
         holder.number.setText(number);
         holder.des.setText(des);
         holder.source.setText(source);
-
-        holder.cardView.startAnimation(AnimationUtils.loadAnimation(holder.itemView.getContext(),R.anim.anim_one));
-
+        holder.cardView.startAnimation(AnimationUtils.loadAnimation
+                (holder.itemView.getContext(), R.anim.anim_one));
 
     }
 

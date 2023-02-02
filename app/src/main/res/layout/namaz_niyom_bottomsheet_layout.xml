@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialog_background"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/kalpurush"
+        android:text="নামাযের নিয়ম"
+        android:textAlignment="center"
+        android:textColor="@color/purple_200"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:scrollbars="none"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--কার্ড ভিউ-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="vertical">
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    app:cardBackgroundColor="@color/purple_700"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="3dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:fontFamily="@font/kalpurush"
+                            android:text="নামায কিভাবে শরিয়ত মোতাবেক পড়বেন তা সম্বন্ধে লিখা আছে।"
+                            android:textAlignment="center"
+                            android:textColor="@color/primary"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:fontFamily="@font/kalpurush"
+                            android:text="নামাযের যে ৭ টি ফরজ রয়েছে তা আমরা আগেই জেনে এসেছি, সেগুলা না জানলে অবশ্যই নামাযের ফরজ ও ওয়াজিব সেকশনে অ্যাড করা আছে দেখে নিতে পারেন।"
+                            android:layout_gravity="center"
+                            android:textColor="@color/primary"
+                            android:textSize="17sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+
+            </LinearLayout>
+
+            <!--কার্ড ভিউ-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        app:cardBackgroundColor="@color/purple_700"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="3dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="10dp"
+                                android:fontFamily="@font/kalpurush"
+                                android:gravity="center"
+                                android:text="সালাত আদায়ের নিয়মাবলিঃ"
+                                android:textColor="@color/purple_200"
+                                android:textSize="22sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="left"
+                                android:layout_margin="10dp"
+                                android:fontFamily="@font/kalpurush"
+                                android:text="১। সঠিক ভাবে নামাযের জন্য দাঁড়াবো।\n\n২। সালাত এর নিয়ত করব তারপরে তাকবিরে তাহরিমা বলব। তাকবিরে তাহরিমা (আল্লাহু আকবার)।\n\n৩। এই তাকবিরে তাহরিমার সাথে ছেলেঃ- দুই হাত কান এর মাঝ বরাবর উঠাব ও দুই হাতের আঙুল গুলো কিবলামুখী করে হালকা বাকা করব। দুই হাত নাভির উপরে রাখবে। (মেয়েরা দুই হাত কাধ বরাবর উঠাবে ও এর পরে দুই হাত বুকের উপরে বাধবে।)।\n\n৪। হাত বাধার ক্ষেত্রে বাম হাতের তালুর উপরে ডান হাতের তালু রেখে কনিষ্ঠ ও বৃদ্ধা আঙুল দ্বারা বাম হাতের কব্জি ধরব। (মেয়েরা শুধু বাম হাতের উপরে ডান হাত রাখবে)।\n\n৫। এর পরে সানা পড়ব। \n\n৬। এর পরে আমরা আউজুবিল্লাহি মিনাশ সাইতুয়ানির রাজিম পড়ে, বিসমিল্লাহির রাহমানির রাহিম পড়ব, এরপরে সূরা ফাতিহা পাঠ করব, তারপরে আমরা কোন সূরা বা কোরআন এর কিছু অংশ তেলাওয়াত করব।\n\n৭। তারপরে আমরা আল্লাহু আকবার বলে রুকু করব।"
+                                android:textColor="@color/primary"
+                                android:textSize="17sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        app:cardBackgroundColor="@color/purple_700"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="3dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="left"
+                                android:layout_margin="10dp"
+                                android:fontFamily="@font/kalpurush"
+                                android:text="৮। রুকুতে দুই হাত হাঁটুর উপরে এমনভাবে রাখব যাতে করে মাথা , পিঠ, ও কোমর এক বরাবর হয়। কুনুই পাজর থেকে ফাকা করে রাখতে হবে। (মেয়েরা বাম পায়ের সাথে ডান পায়ের টাখনুর সাথে মিলিয়ে রাখবে, এরপরে মাথা ঝুঁকিয়ে দুই হাতের আঙুলগুলো মেলানো অবস্তায় হাঁটুর উপরে রাখবে। কুনুই পাজরের সাথে মিলিয়ে রাখবে এবং মাথা এততুকু ঝুকাবে, যাতে হাঁটু পর্যন্ত পৌঁছে।\n\n৯। রুকুতে অন্তত ৩ বার সুবহানাকা রাব্বিয়াল আজিম পাঠ করব।\n\n১০। এরপরে আমরা সামিআল্লাহু লিমান হামিদা বলে সোজা হয়ে দাঁড়াবো। দাঁড়ানো অবস্তায় রাব্বানা লাকাল হামদ বলতে হবে।\n\n১১। এরপরে আল্লাহু আকবার বলে সিজদাহ করতে হবে। প্রথমে দুই হাত মাটিতে বা জায়নামাযে রাখতে হবে।তারপরে দুই হাত মাটিতে রাখতে হবে। তারপরে দুই হাতের মাঝখানে মাথা রেখে নাক ও কপাল মাটিতে রাখতে হবে। সিজদাহ এর সময় দুই হাতের আঙুল গুলো একসাথে সোজা করে রাখতে হবে।\n\n১২। সিজদার সময় ছেলেরা মাথা হাঁটু হতে দূরে রাখবে। হাতের কব্জির উপরের অংশ মাটিতে লাগবে না। পায়ের নলা উরু হতে পৃথক রাখবে। (মেয়েরা সর্বাঙ্গ মিলিত অবস্থায় সিজদাহ করবে। মাথা যথাসম্ভব হাঁটুর কাছে রাখবে। উরু পায়ের সাথে এবং হাতের বাজু পাজরের সাথে মিলিয়ে রাখবে।"
+                                android:textColor="@color/primary"
+                                android:textSize="17sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        app:cardBackgroundColor="@color/purple_700"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="3dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="left"
+                                android:layout_margin="10dp"
+                                android:fontFamily="@font/kalpurush"
+                                android:text="১৩। সিজদার সময় অন্তত কমপক্ষে ৩ বার সুবহানা রাব্বিয়াল আলা বলতে হয়।\n\n১৪। এরপরে আল্লাহু আকবার বলে সোজা হয়ে বসে দুই হাত হাঁটুর উপরে রাখবে।\n\n১৫। এরপরে আল্লাহু আকবার বলে দ্বিতীয় সিজদা করবে এবং পূর্বের ন্যায় তাহবিহ পড়বে।\n\n১৫। তারপর আল্লাহু আকবার বলে সোজা হয়ে দাঁড়াবে। এইভাবে প্রথম রাকাত শেষ হবে।"
+                                android:textColor="@color/primary"
+                                android:textSize="17sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        app:cardBackgroundColor="@color/purple_700"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="3dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="left"
+                                android:layout_margin="10dp"
+                                android:fontFamily="@font/kalpurush"
+                                android:text="১৭। একই নিয়মে দ্বিতীয় রাকাত শেষ করে শেষ বৈঠকে বসতে হবে, শেষ বৈঠকে তাসাহুদ পড়তে হবে। তাসাহুদ পড়ার সময় আশহাদু আল্লাহ্‌ ইলাহা এখানে আসার সময়ে ডান হাতের তর্জনী আঙুলটা হালকা উঁচু করে আবার নামিয়ে নিতে হবে।\n\n১৯। তারপরে দুরুদ শরীফ ও দোয়া মাসুরা পড়তে হবে।\n\n২০। এরপরে ডানে ও বামে মুখ ফিরিয়ে আসসালামুয়ালাইকুম ওয়া রহমাতুল্লাহ বলে নামায শেষ করতে হবে।\n\n২১। ৩ বা ৪ রাকাত বিশিষ্ট নামাজ হলে তাসাহুদ এর পরে অর্থাৎ শেষ আয়াত পড়ে আব্দুহু ওয়া রসুল্লুলাহ পর্যন্ত পড়ে আল্লাহু আকবার বলে দাঁড়াতে হবে। এরপর পূর্বের ন্যায় ৩য় ও ৪র্থ রাকাত নামায শেষ করতে হবে। "
+                                android:textColor="@color/primary"
+                                android:textSize="17sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

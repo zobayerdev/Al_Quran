@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/dialog_background"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/kalpurush"
+        android:text="নামায নিয়ে কিছু কথা"
+        android:textAlignment="center"
+        android:textColor="@color/purple_200"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:scrollbars="none"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--কার্ড ভিউ-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="vertical">
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    app:cardBackgroundColor="@color/purple_700"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="3dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:fontFamily="@font/kalpurush"
+                            android:layout_gravity="center"
+                            android:text="ঈমানের পর সবচেয়ে গুরুত্বপূর্ণ বিষয় হল নামাজ। রাসুলুল্লাহ সাল্লাল্লাহু আলাইহি ওয়া সাল্লাম আল্লাহর পক্ষ থেকে বার বার নামাজের তাগিদ পেয়েছেন। কুরআনে পাকে আল্লাহ তাআলা বিভিন্ন জায়গায় সরাসরি ৮২ বার সালাত শব্দ উল্লেখ করে নামাজের গুরুত্ব তুলে ধরেছেন। তাই প্রিয়নবি সাল্লাল্লাহু আলাইহি ওয়া সাল্লাম নামাজকে ঈমানের পর স্থান দিয়েছেন।"
+                            android:textColor="@color/primary"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_margin="10dp"
+                            android:fontFamily="@font/kalpurush"
+                          android:layout_gravity="center"
+                            android:text="নামাজ (সালাত) ইসলামের পাঁচটি রোকনের মধ্যে দ্বিতীয় রোকন৷ নামাজ প্রতিটি প্রাপ্তবয়স্ক ও বুদ্ধি-জ্ঞান সম্পন্ন, নারী পুরুষ নির্বিশেষে, প্রতিটি মুসলিমের জন্য ফরজ বা অবশ্যকরণীয়।"
+                            android:textColor="@color/purple_200"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:fontFamily="@font/kalpurush"
+                            android:textAlignment="center"
+                            android:textColor="@color/primary"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+
+            </LinearLayout>
+
+            <!--কার্ড ভিউ-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        app:cardBackgroundColor="@color/purple_700"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="3dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="10dp"
+                                android:fontFamily="@font/kalpurush"
+                                android:gravity="center"
+                                android:text="নামাযের ইতিহাস"
+                                android:textColor="@color/purple_200"
+                                android:textSize="22sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="left"
+                                android:layout_margin="10dp"
+                                android:text="ইসলামের বিভিন্ন বর্ণনা অনুযায়ী মুহাম্মাদ (সাঃ) ৬১০ খ্রিষ্টাব্দে ৪০ বছর বয়সে নবুয়ত লাভ করেন এবং অব্যবহিত পরে সূরা মু’মিন-এর ৫৫ নম্বর আয়াতে আল্লাহর পক্ষ থেকে সকাল ও সন্ধ্যায় দৈনিক দুই ওয়াক্ত নামাজ মুসলিমদের জন্য ফরজ (আবশ্যিক) হওয়ার নির্দেশনা লাভ করেন। তিনি ৬১৪ খ্রিষ্টাব্দে সকাল, সন্ধ্যা ও দুপুরে দৈনিক তিন ওয়াক্ত নামাজের আদেশ লাভ করেন। ৬১৯ খ্রিষ্টাব্দের ২৭শে রজব তারিখে মিরাজের সময় পাঁচওয়াক্ত নামাজ ফরজ হওয়ার নির্দেশ দেয়া হয়। উল্লেখ্য যে, এ সময় যুহর, আসর ও ইশা ২ রাকাত পড়ার বিধান ছিল। ৬২৩ খ্রিষ্টাব্দে আল্লাহর তরফ থেকে ২ রাকাত বিশিষ্ট যুহর, আসর ও ইশাকে ৪ রাকাতে উন্নীত করার আদেশ দেয়া হয়।[৬]"
+                                android:fontFamily="@font/kalpurush"
+                                android:textColor="@color/primary"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
