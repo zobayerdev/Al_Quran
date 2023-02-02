@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/dialog_background">
+    android:background="@drawable/dialog_background"
+    android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -48,8 +48,8 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="right"
                         android:layout_margin="10dp"
-                        android:text="The Holy Quran- Islamic App অ্যাপটির মান উন্নয়নের জন্য কাজ চলছে। আমাদের ডেভেলপাররা সর্বাত্মক চেষ্টা চালিয়ে যাচ্ছে এই অ্যাপটির ফিচারস নিয়ে। শীগ্রহী আমাদের টিম অ্যাপটির নতুন ভার্সন নিয়ে আসবে আপনাদের কাছে।\n\nধন্যবাদ আমাদের পাশে থাকুন"
                         android:fontFamily="@font/kalpurush"
+                        android:text="Al Quran- Islamic App অ্যাপটির মান উন্নয়নের জন্য কাজ চলছে। আমাদের ডেভেলপাররা সর্বাত্মক চেষ্টা চালিয়ে যাচ্ছে এই অ্যাপটির ফিচারস নিয়ে। শীগ্রহী আমাদের টিম অ্যাপটির নতুন ভার্সন নিয়ে আসবে আপনাদের কাছে।\n\nধন্যবাদ আমাদের পাশে থাকুন"
                         android:textColor="@color/primary"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -127,27 +127,26 @@
                         android:id="@+id/facebook"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="5dp"
-                        android:fontFamily="@font/kalpurush"
-                        android:text="@string/facebook"
-                        android:gravity="left"
                         android:layout_marginLeft="10dp"
-                        android:backgroundTint="@color/purple_700"
-                        android:textSize="18sp"
-                        android:textStyle="bold"
+                        android:layout_marginTop="5dp"
                         android:autoLink="web"
-                        />
+                        android:backgroundTint="@color/purple_700"
+                        android:fontFamily="@font/kalpurush"
+                        android:gravity="left"
+                        android:text="@string/facebook"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/email"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="5dp"
-                        android:fontFamily="@font/kalpurush"
-                        android:text="thequran@trodev.com"
-                        android:gravity="left"
                         android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
                         android:autoLink="email"
+                        android:fontFamily="@font/kalpurush"
+                        android:gravity="left"
+                        android:text="zhn.trodev@gmail.com"
                         android:textColor="@color/purple_200"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -156,17 +155,16 @@
                         android:id="@+id/mobile"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="5dp"
-                        android:fontFamily="@font/kalpurush"
-                        android:text="+8801615257555"
-                        android:autoLink="phone"
-                        android:gravity="left"
                         android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:autoLink="phone"
+                        android:fontFamily="@font/kalpurush"
+                        android:gravity="left"
+                        android:text="+8801615257555"
                         android:textColor="@color/purple_200"
                         android:textSize="20sp"
-                        android:textStyle="bold"
-                        android:layout_marginBottom="10dp"
-                        />
+                        android:textStyle="bold" />
 
 
                 </LinearLayout>

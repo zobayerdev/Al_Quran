@@ -99,8 +99,8 @@ public class MainActivity extends AppCompatActivity {
         hadis.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //  Intent intent = new Intent(MainActivity.this, UpdateNotificationActivity.class);
-                // startActivity(intent);
+                 Intent intent = new Intent(MainActivity.this, HadisEdu.class);
+                 startActivity(intent);
                 Toast.makeText(MainActivity.this, "হাদিস সমূহ...!", Toast.LENGTH_SHORT).show();
             }
         });
