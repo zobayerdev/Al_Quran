@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical"
     android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:background="@drawable/dialog_background"
-    android:layout_height="match_parent">
+    android:orientation="vertical">
 
 
     <LinearLayout
@@ -47,16 +47,15 @@
                         android:layout_width="wrap_content"
                         android:layout_height="130dp"
                         android:layout_gravity="right"
-                        android:src="@drawable/ic_dev" />
-
+                        android:src="@drawable/developer" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_margin="10dp"
+                        android:fontFamily="@font/trebuc"
                         android:text="This app is developed by Trodev."
-                        android:fontFamily="@font/ubuntu_medium"
                         android:textColor="@color/primary"
                         android:textSize="22sp"
                         android:textStyle="bold" />
@@ -66,8 +65,8 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_margin="10dp"
+                        android:fontFamily="@font/trebuc"
                         android:text="Head Developer:\n            Md. Zobayer Hasan Nayem \n           Software Engineer of Trodev"
-                        android:fontFamily="@font/ubuntu_medium"
                         android:textColor="@color/purple_200"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -77,8 +76,8 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_margin="10dp"
+                        android:fontFamily="@font/trebuc"
                         android:text="Theme and Material Collector: \n          Md. Zayed Hasan Noman \n         Graphich Designer of Trodev"
-                        android:fontFamily="@font/ubuntu_medium"
                         android:textColor="@color/purple_200"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -88,8 +87,8 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_margin="10dp"
+                        android:fontFamily="@font/trebuc"
                         android:text="Data Collector: \n          Md. Saif Tasnim Chawdhury \n         Data Minner of Trodev"
-                        android:fontFamily="@font/ubuntu_medium"
                         android:textColor="@color/purple_200"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -100,8 +99,8 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_margin="10dp"
-                        android:text="সর্বাধিক সাহায্যদানকারীঃ- \n       দারুস সুন্নাহ তাহফিজুল কুরআন মাদ্রাসা \n       পরিচালকঃ আব্দুল্লাহ "
                         android:fontFamily="@font/kalpurush"
+                        android:text="সর্বাধিক সাহায্যদানকারীঃ- \n       দারুস সুন্নাহ তাহফিজুল কুরআন মাদ্রাসা \n       পরিচালকঃ আব্দুল্লাহ "
                         android:textColor="@color/purple_200"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -110,14 +109,13 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
-                        android:fontFamily="@font/ubuntu_medium"
+                        android:layout_marginBottom="10dp"
+                        android:fontFamily="@font/trebuc"
                         android:text="copyright 2022 all reserved by Trodev."
                         android:textAlignment="center"
                         android:textColor="@color/purple_200"
                         android:textSize="18sp"
-                        android:textStyle="bold"
-                        android:layout_marginBottom="10dp"
-                        />
+                        android:textStyle="bold" />
 
 
                 </LinearLayout>

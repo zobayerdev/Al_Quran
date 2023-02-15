@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 import androidx.drawerlayout.widget.DrawerLayout;
 
+import android.annotation.SuppressLint;
 import android.app.Dialog;
 import android.content.ActivityNotFoundException;
 import android.content.Intent;
@@ -32,10 +33,11 @@ public class MainActivity extends AppCompatActivity {
     private DrawerLayout drawerLayout;
     private ActionBarDrawerToggle toggle;
     private NavigationView navigationView;
-    private CardView offlineQuran, tracker, quran, hadis, dinsikkha, Amol,
+    private CardView offlineQuran, pdfQuran, quran, hadis, dinsikkha, Amol,
             dua, seheri, prayEdu, jakat, tasbih, qibla, allahName;
 
 
+    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -54,9 +56,11 @@ public class MainActivity extends AppCompatActivity {
         allahName = findViewById(R.id.allahName);
         // donation = findViewById(R.id.donation);
         quran = findViewById(R.id.quran);
-        tracker = findViewById(R.id.tracker);
+        pdfQuran = findViewById(R.id.pdfQuran);
 
 
+        // ############################# Drawer Layout Activity ##########################
+        // init drawerLayout
         drawerLayout = findViewById(R.id.drawerlayout);
         navigationView = findViewById(R.id.navigation_view);
         toggle = new ActionBarDrawerToggle(this, drawerLayout, R.string.start, R.string.close);
@@ -78,13 +82,12 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        tracker.setOnClickListener(new View.OnClickListener() {
+        pdfQuran.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Intent intent = new Intent(MainActivity.this,OfflineQuran.class);
-                // startActivity(intent);
-
-                // showDialog_tracker();
+                Intent intent = new Intent(MainActivity.this, PdfQuranAcitivty.class);
+                startActivity(intent);
+                Toast.makeText(MainActivity.this, "কুরআন পাঠ করুন...", Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -99,8 +102,8 @@ public class MainActivity extends AppCompatActivity {
         hadis.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                 Intent intent = new Intent(MainActivity.this, HadisEdu.class);
-                 startActivity(intent);
+                Intent intent = new Intent(MainActivity.this, HadisEdu.class);
+                startActivity(intent);
                 Toast.makeText(MainActivity.this, "হাদিস সমূহ...!", Toast.LENGTH_SHORT).show();
             }
         });
@@ -147,7 +150,7 @@ public class MainActivity extends AppCompatActivity {
         prayEdu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                 startActivity(new Intent(MainActivity.this, NamazEdu.class));
+                startActivity(new Intent(MainActivity.this, NamazEdu.class));
                 Toast.makeText(MainActivity.this, "নামায শিক্ষা...!", Toast.LENGTH_SHORT).show();
             }
         });
@@ -181,19 +184,6 @@ public class MainActivity extends AppCompatActivity {
         dialog.getWindow().getAttributes().windowAnimations = R.style.DialogAnimation;
         dialog.getWindow().setGravity(Gravity.BOTTOM);
     }
-
-/*    private void showDialog_tracker() {
-        final Dialog dialog = new Dialog(this);
-        dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
-        dialog.setContentView(R.layout.update_bottomsheet_layout);
-
-
-        dialog.show();
-        dialog.getWindow().setLayout(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
-        dialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
-        dialog.getWindow().getAttributes().windowAnimations = R.style.DialogAnimation;
-        dialog.getWindow().setGravity(Gravity.BOTTOM);
-    }*/
 
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
@@ -234,7 +224,7 @@ public class MainActivity extends AppCompatActivity {
                 try {
                     Intent shareIntent = new Intent(Intent.ACTION_SEND);
                     shareIntent.setType("text/plain");
-                    shareIntent.putExtra(Intent.EXTRA_SUBJECT, "The Holy Quran -Islamic App");
+                    shareIntent.putExtra(Intent.EXTRA_SUBJECT, "Al Quran -Islamic App");
                     String shareMessage = "\nThe Holy Quran -Islamic App অ্যাপটি ডাউনলোড করুন\n\n";
                     shareMessage = shareMessage + "https://play.google.com/store/apps/details?id=" + BuildConfig.APPLICATION_ID + "\n\n";
                     shareIntent.putExtra(Intent.EXTRA_TEXT, shareMessage);

@@ -36,7 +36,6 @@ public class HadisEdu extends AppCompatActivity {
 
     private void initData() {
 
-
         hadislist = new ArrayList<>();
         hadislist.add(new ModelHadis(
                 "(০১) সে-ই মুসলিম, যার জিহ্বা ও হাত থেকে অন্য মুসলিম নিরাপদ থাকে।",

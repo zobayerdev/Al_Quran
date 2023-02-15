@@ -29,7 +29,6 @@ public class DuaActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setTitle("দোয়া সমূহ");
 
-
         initData();
         initRecyclerView();
     }
@@ -90,11 +89,9 @@ public class DuaActivity extends AppCompatActivity {
                 "ঘুমাতে যাওয়ার আগে দোয়া",
                 "আল্লাহু আকবার",
                 "নূরানি কুরআন শিক্ষা"));
-
     }
 
     private void initRecyclerView() {
-
         recyclerView = findViewById(R.id.recyclerView);
         layoutManager = new LinearLayoutManager(this);
         layoutManager.setOrientation(RecyclerView.VERTICAL);
